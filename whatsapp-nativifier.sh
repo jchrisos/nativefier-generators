@@ -9,8 +9,6 @@ export PACKAGE_JSON=$PWD'/WhatsApp-linux-x64/resources/app/package.json'
 tmp=$(mktemp)
 jq --unbuffered '.name="WhatsApp"' $PACKAGE_JSON > "$tmp" && mv "$tmp" $PACKAGE_JSON
 
-cat $PACKAGE_JSON
-
 #creating desktop entry
 echo '#!/usr/bin/env xdg-open
 [Desktop Entry]
