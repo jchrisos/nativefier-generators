@@ -1,5 +1,7 @@
 # nativefier-generators
-The idea of these scripts is to create a desktop app from a web app using nativefier, creating desktop entries, and finally fixing icons.
+The idea of these scripts is to create a desktop app from a web app using [Nativefier](https://github.com/jiahaog/nativefier), creating desktop entries, and finally fixing icons.
+
+All apps are single instance and some of them put the app in the system tray.
 
 Available apps:
 - WhatsApp
