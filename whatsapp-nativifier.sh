@@ -20,10 +20,10 @@ echo '#!/usr/bin/env xdg-open
 Version=1.0
 Type=Application
 Terminal=false
-Icon[en_US]=whatsapp-desktop
+Icon[en_US]='$DIR'/WhatsApp-linux-x64/resources/app/icon.png
 Name[en_US]=WhatsApp
 Exec='$DIR'/WhatsApp-linux-x64/WhatsApp
 Comment[en_US]=WhatsApp Web
 Name=WhatsApp
 Comment=WhatsApp Web
-Icon=whatsapp-desktop' >| ~/.local/share/applications/WhatsApp.desktop
+Icon='$DIR'/WhatsApp-linux-x64/resources/app/icon.png' >| ~/.local/share/applications/WhatsApp.desktop
